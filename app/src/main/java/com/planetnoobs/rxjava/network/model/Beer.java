@@ -32,7 +32,6 @@ public class Beer {
         this.style = style;
     }
 
-
     public int getId() {
         return id;
     }

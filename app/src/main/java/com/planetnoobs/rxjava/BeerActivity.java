@@ -25,6 +25,8 @@ import com.planetnoobs.rxjava.network.ApiClient;
 import com.planetnoobs.rxjava.network.ApiService;
 import com.planetnoobs.rxjava.network.model.Beer;
 import com.planetnoobs.rxjava.ui.adapter.BeerFilterableAdapter;
+import com.planetnoobs.rxjava.utils.MyDividerItemDecoration;
+import com.planetnoobs.rxjava.utils.RecyclerTouchListener;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -154,8 +156,9 @@ public class BeerActivity extends AppCompatActivity implements BeerFilterableAda
         ApiService apiService = ApiClient.getClient(getApplicationContext()).create(ApiService.class);
 
         final MaterialDialog progress = new MaterialDialog.Builder(this)
-                .title("Please Wait")
+                .title("Please Wait...")
                 .progress(true, 0)
+                .progressIndeterminateStyle(true)
                 .build();
 
         progress.show();

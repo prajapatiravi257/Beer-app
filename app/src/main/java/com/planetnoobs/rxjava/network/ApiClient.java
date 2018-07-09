@@ -3,8 +3,8 @@ package com.planetnoobs.rxjava.network;
 import android.content.Context;
 import android.text.TextUtils;
 
-import com.planetnoobs.rxjava.Const;
-import com.planetnoobs.rxjava.PrefUtils;
+import com.planetnoobs.rxjava.utils.Const;
+import com.planetnoobs.rxjava.utils.PrefUtils;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

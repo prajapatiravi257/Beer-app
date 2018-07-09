@@ -1,4 +1,4 @@
-package com.planetnoobs.rxjava;
+package com.planetnoobs.rxjava.utils;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
