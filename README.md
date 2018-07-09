@@ -1,2 +1,3 @@
 # Beer-app
-Hackerearth challege project : Rxjava
+Hackerearth challege project 
+
